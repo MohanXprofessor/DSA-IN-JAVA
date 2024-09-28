@@ -1,0 +1,38 @@
+package com.bubbleSort;
+
+import java.util.Scanner;
+
+public class BubbleSort {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner scan=new Scanner(System.in);
+		
+		
+		System.out.println("Enter Array Size :");
+		int arrsize=scan.nextInt();
+		
+		// array create dynamic as per user input size of array
+		
+		int my_array[]=new int[arrsize];
+		
+//		Storing user input
+		
+		for(int i=0;i<arrsize;i++) {
+		System.out.println("Enter Array Element :");
+			my_array[i]=scan.nextInt();
+		}
+		
+//		Displaying User input
+		
+		for(int i=0;i<arrsize;i++) {
+			System.out.println("Enter Array Element :"+my_array[i]);
+				
+			}
+		
+		
+
+	}
+
+}
